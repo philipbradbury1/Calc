@@ -1,0 +1,91 @@
+
+		.calc {
+			width:350px;
+			height: 280px;
+			margin: 60px auto;
+		}
+
+		#input, #display{
+			background-color: lightgrey;
+			width: 200px;
+			height: 35px;
+			margin-top: 0px;
+			margin-bottom: 0px;
+			display: inline-block;
+			font-size: 1.6em;
+			text-indent: 0.4em;
+			direction: rtl;
+			padding-top: 15px;
+			display: block;
+		}
+
+		.numbers{	
+			max-width: 200px;
+			float: left;
+		}
+
+		  button{
+			width: 25%;
+			margin: 0;
+			padding: 20px;
+  			text-decoration: none;
+  			border: 1px solid #4286f4;
+  			float: left;
+  			font-size: 1em;
+  			background-color: #6fa1f2;
+
+		}
+
+		.second button{
+			background-color: #e1675a;
+			border: 1px solid #ca5d4e;
+			float: left;
+
+		}
+
+		.science{
+		visibility: hidden;
+		float: right;
+		width: 150px;
+		z-index: 1;
+
+		}
+
+		.science button{
+			width: 33.3%;
+			position: static;
+			padding: 20px;
+		}
+
+		.contain-overlay{
+			position: relative;
+			width: 150px;
+			height: 244px;
+			z-index: 1;
+		}
+
+		.overlay{
+			position: absolute;
+			width: 100%;
+			height: 100%;
+			top: 0;
+  			left: 0;
+  			background-color: rgba(0, 0, 0, 0.5);
+  			z-index: 30;
+
+		}
+		.overlay p {
+			color: white;
+			font-size: 1.2em;
+			margin-top: 50%;
+		}
+
+		button.the {
+				background-color: #ca5d4e;
+			width: 57.1%;
+			height: 30px;
+			margin: 0;
+			padding: 0;
+			border: none;
+			position: static
+		}

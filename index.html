@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="Styles.css">
+	</head>
+	<body>
+
+<div class ="calc">
+	
+	<div class ="calc second">
+			<p id="display"></p>
+		<div class ="numbers">
+				<button onclick="Calc.sumGetNumber(9)">9</button>
+				<button onclick="Calc.sumGetNumber(8)">8</button>
+				<button onclick="Calc.sumGetNumber(7)">7</button>
+				<button onclick="Calc.mainSum('+')">+</button>
+				<button onclick="Calc.sumGetNumber(6)">6</button>
+				<button onclick="Calc.sumGetNumber(5)">5</button>
+				<button onclick="Calc.sumGetNumber(4)">4</button>
+				<button onclick="Calc.mainSum('*')">*</button>
+				<button onclick="Calc.sumGetNumber(3)">3</button>
+				<button onclick="Calc.sumGetNumber(2)">2</button>
+				<button onclick="Calc.sumGetNumber(1)">1</button>
+				<button onclick="Calc.mainSum('-')">-</button>
+				<button onclick="Calc.sumGetNumber(0)">0</button>
+				<button onclick="Calc.sumDel()">C</button>
+				<button onclick="Calc.mainSum('=')">=</button>
+				<button onclick="Calc.mainSum('/')">/</button>	
+		</div>
+			
+		<div class= "science contain-overlay" id="science">
+			
+			<button>.</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<button>?</button>
+			<div class="overlay"><p>Coming soon!</p></div>
+			</div>
+		<button onclick="Calc.science()" id="scienceBtn" class= "the">Scientific</button>
+		</div>
+			
+</div>
+		 
+		<script type="text/javascript" src="calc.js"></script>
+</body>
+</html>
